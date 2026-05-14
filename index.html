@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaterialHub - Industrial Materials & Products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar Component -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="https://placehold.co/150x50?text=MaterialHub+Logo" alt="MaterialHub Logo" class="logo-img">
+            </div>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#products">Products</a></li>
+                <li><a href="#installation">Installation</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact" class="btn-contact">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-left">
+                        <!-- <img src="https://imgs.search.brave.com/0GDWSZARfjtKnrjwJjGPpsUcFzRh2DJ3KWcYcd0eofo/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNTgy/MjU2NjQwL3Bob3Rv/L29pbC1yZWZpbmVy/eS1jaGVtaWNhbC1w/ZXRyb2NoZW1pY2Fs/LXBsYW50LmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1CRWRz/SFZlMnZVZnpSVGI5/S2NzQ1NfdENINl9S/X25LTEtrT1FDaHQ4/QUtvPQ" alt="Industrial Materials" class="hero-image"> -->
+                        <img src="https://placehold.co/500x400?text=Industrial+Materials" alt="Industrial Materials" class="hero-image">
+                    
+                    </div>
+                    <div class="hero-right">
+                        <h1>Premium Industrial Materials</h1>
+                        <p class="hero-subtitle">High-quality products for construction, manufacturing, and industrial projects</p>
+                        <button class="btn-primary" 
+                        onclick="document.getElementById('products').scrollIntoView({behavior: 'smooth'})">Shop Now</button>
+                    </div>
+                </div>
+                <div class="hero-description">
+                    <p>MaterialHub is your trusted partner in delivering premium industrial materials and piping solutions. With over a decade of experience serving industries worldwide, we provide unmatched quality, reliability, and customer service. Our comprehensive product range is designed to meet the most demanding specifications and applications across construction, manufacturing, and industrial sectors.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Specifications Component -->
+        <section class="technical-specs">
+            <div class="container">
+                <h2>Technical Specifications at a Glance</h2>
+                <p class="section-intro">Comprehensive technical details of our premium industrial materials and products</p>
+                
+                <div class="specs-table-wrapper">
+                    <table class="specs-table">
+                        <thead>
+                            <tr>
+                                <th>Parameters</th>
+                                <th>Specification</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Pipe Diameter</td>
+                                <td>1/2" - 4" (DN12 - DN100)</td>
+                            </tr>
+                            <tr>
+                                <td>Pressure Ratings</td>
+                                <td>100 PSI - 500 PSI (0.7 - 3.5 MPa)</td>
+                            </tr>
+                            <tr>
+                                <td>Joint Type</td>
+                                <td>Threaded, Welded, Flanged</td>
+                            </tr>
+                            <tr>
+                                <td>Coil Length</td>
+                                <td>25m, 50m, 100m custom lengths</td>
+                            </tr>
+                            <tr>
+                                <td>Material Composition</td>
+                                <td>Grade A Steel, Stainless Steel 304/316</td>
+                            </tr>
+                            <tr>
+                                <td>Temperature Range</td>
+                                <td>-40°C to 120°C (-40°F to 250°F)</td>
+                            </tr>
+                            <tr>
+                                <td>Surface Finish</td>
+                                <td>Galvanized, Polished, Powder Coated</td>
+                            </tr>
+                            <tr>
+                                <td>Certification</td>
+                                <td>ISO 9001:2015, ASTM, EN Standards</td>
+                            </tr>
+                            <tr>
+                                <td>Tensile Strength</td>
+                                <td>400 - 600 MPa (58,000 - 87,000 PSI)</td>
+                            </tr>
+                            <tr>
+                                <td>Weight Capacity</td>
+                                <td>Up to 5000 kg per unit (Load Rating)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Component -->
+        <section id="products" class="products">
+            <div class="container">
+                <h2>Our Products</h2>
+                <p class="section-intro">High-quality industrial materials for your projects</p>
+                
+                <div class="products-grid">
+                    <div class="product-card">
+                        <img src="https://placehold.co/250x200?text=Steel+Sheets" alt="Steel Sheets">
+                        <h3>Steel Sheets</h3>
+                        <p>Premium quality steel sheets for industrial applications</p>
+                        <span class="price">$50/unit</span>
+                    </div>
+                    
+                    <div class="product-card">
+                        <img src="https://placehold.co/250x200?text=Aluminum+Profiles" alt="Aluminum">
+                        <h3>Aluminum Profiles</h3>
+                        <p>Lightweight and durable aluminum profiles</p>
+                        <span class="price">$35/unit</span>
+                    </div>
+                    
+                    <div class="product-card">
+                        <img src="https://placehold.co/250x200?text=Copper+Wires" alt="Copper">
+                        <h3>Copper Wires</h3>
+                        <p>High-conductivity copper wiring solutions</p>
+                        <span class="price">$25/unit</span>
+                    </div>
+                    
+                    <div class="product-card">
+                        <img src="https://placehold.co/250x200?text=PVC+Pipes" alt="PVC">
+                        <h3>PVC Pipes</h3>
+                        <p>Durable plastic piping for construction</p>
+                        <span class="price">$15/unit</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Installation Component -->
+        <section id="installation" class="installation">
+            <div class="container">
+                <h2>Installation Guide</h2>
+                <p class="section-intro">Step-by-step installation instructions for our materials</p>
+                
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <h3>Preparation</h3>
+                        <p>Prepare the work area and gather all necessary tools. Ensure the surface is clean and properly measured.</p>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <h3>Measuring</h3>
+                        <p>Accurately measure the dimensions required for your project to ensure perfect fit and alignment.</p>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <h3>Installation</h3>
+                        <p>Follow the specific installation guidelines for your chosen material type with proper safety precautions.</p>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <h3>Finishing</h3>
+                        <p>Complete the installation with final adjustments and quality checks to ensure durability.</p>
+                    </div>
+                </div>
+                
+                <a href="#" class="btn-primary">Download Installation Manual</a>
+            </div>
+        </section>
+
+        <!-- Pricing Component -->
+        <section id="pricing" class="pricing">
+            <div class="container">
+                <h2>Pricing Plans</h2>
+                <p class="section-intro">Flexible pricing options for every budget</p>
+                
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <h3>Starter</h3>
+                        <p class="price-value">$199/month</p>
+                        <p>Perfect for small projects</p>
+                        <ul class="features-list">
+                            <li>✓ 100 units/month</li>
+                            <li>✓ Basic support</li>
+                            <li>✓ Standard shipping</li>
+                            <li>✗ Premium materials</li>
+                        </ul>
+                        <button class="btn-secondary">Get Started</button>
+                    </div>
+                    
+                    <div class="pricing-card featured">
+                        <h3>Professional</h3>
+                        <p class="price-value">$499/month</p>
+                        <p>For growing businesses</p>
+                        <ul class="features-list">
+                            <li>✓ 500 units/month</li>
+                            <li>✓ Priority support</li>
+                            <li>✓ Fast shipping</li>
+                            <li>✓ Premium materials</li>
+                        </ul>
+                        <button class="btn-primary">Choose Plan</button>
+                    </div>
+                    
+                    <div class="pricing-card">
+                        <h3>Enterprise</h3>
+                        <p class="price-value">Custom</p>
+                        <p>For large-scale operations</p>
+                        <ul class="features-list">
+                            <li>✓ Unlimited units</li>
+                            <li>✓ 24/7 support</li>
+                            <li>✓ Custom logistics</li>
+                            <li>✓ All materials</li>
+                        </ul>
+                        <button class="btn-secondary">Contact Sales</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Component -->
+        <section id="features" class="features">
+            <div class="container">
+                <h2>Why Choose Us</h2>
+                <p class="section-intro">Industry-leading quality and service</p>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">📦</div>
+                        <h3>Premium Quality</h3>
+                        <p>All materials are certified and tested for durability and performance in industrial applications.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">🚚</div>
+                        <h3>Fast Delivery</h3>
+                        <p>Quick shipping options available nationwide. Most orders delivered within 3-5 business days.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">💰</div>
+                        <h3>Competitive Pricing</h3>
+                        <p>Best market prices without compromising on quality. Bulk discounts available for large orders.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">🤝</div>
+                        <h3>Expert Support</h3>
+                        <p>Dedicated support team ready to assist with product selection and technical guidance.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">✅</div>
+                        <h3>Quality Guaranteed</h3>
+                        <p>100% satisfaction guarantee. Easy returns and exchanges within 30 days of purchase.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">🔒</div>
+                        <h3>Secure Transactions</h3>
+                        <p>Safe and secure payment options with industry-standard encryption for data protection.</p>
+                    </div>
+                      <div class="feature-card">
+                        <div class="feature-icon">💰</div>
+                        <h3>Secure Shipping Product</h3>
+                        <p>Safe and secure payment options with industry-standard encryption for data protection.</p>
+                    </div>
+                      <div class="feature-card">
+                        <div class="feature-icon">🔒</div>
+                        <h3>Transaction Visibility</h3>
+                        <p>Safe and secure payment options with industry-standard encryption for data protection.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Manufacturing Process Component -->
+        <section id="manufacturing" class="manufacturing">
+            <div class="container">
+                <h2>Advanced HDPE Pipe Manufacturing Process</h2>
+                <p class="section-intro">Our state-of-the-art manufacturing facilities utilize cutting-edge technology and quality control measures to produce premium HDPE pipes that meet international standards. From raw material selection to final packaging, every step is carefully monitored to ensure superior durability, reliability, and performance in demanding industrial applications.</p>
+                
+                <div class="manufacturing-content">
+                    <div class="manufacturing-left">
+                        <h3>Production Excellence & Quality Assurance</h3>
+                        <p>At MaterialHub, we employ advanced extrusion technology combined with rigorous quality control protocols to manufacture HDPE pipes that exceed industry expectations. Our manufacturing process is designed to optimize material properties, ensure dimensional accuracy, and deliver products with exceptional strength and flexibility.</p>
+                        
+                        <div class="manufacturing-features">
+                            <div class="feature-item">
+                                <span class="feature-icon">✓</span>
+                                <p><strong>Raw Material Selection:</strong> Premium virgin HDPE resin sourced from certified suppliers</p>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-icon">✓</span>
+                                <p><strong>Precision Extrusion:</strong> Computer-controlled extruders maintain consistent wall thickness and diameter</p>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-icon">✓</span>
+                                <p><strong>Rapid Cooling System:</strong> Advanced cooling technology ensures uniform material properties</p>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-icon">✓</span>
+                                <p><strong>Automated Quality Testing:</strong> Every pipe undergoes pressure testing and dimensional verification</p>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-icon">✓</span>
+                                <p><strong>Eco-Friendly Process:</strong> Zero-waste manufacturing with full material recycling capability</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="manufacturing-right">
+                        <div class="image-carousel">
+                            <div class="carousel-image">
+                                <img src="https://placehold.co/500x400?text=Manufacturing+Process" alt="HDPE Manufacturing">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trusted Performance Component -->
+        <section class="trusted-performance">
+            <div class="container">
+                <h2>Trusted Performance. Proven Results</h2>
+                <p class="section-intro">Discover why thousands of industries worldwide trust MaterialHub for their critical piping and material solutions. Our commitment to excellence, innovation, and customer satisfaction has made us the preferred choice for demanding applications across multiple sectors.</p>
+                
+                <div class="cards-slider">
+                    <div class="card-item">
+                        <div class="card-icon">🏢</div>
+                        <h3>Industrial Infrastructure</h3>
+                        <p>Trusted by leading manufacturing and construction companies for mission-critical applications. Our pipes are specified in major infrastructure projects worldwide, ensuring long-term reliability and performance in the most demanding environments.</p>
+                    </div>
+                    
+                    <div class="card-item">
+                        <div class="card-icon">🌍</div>
+                        <h3>Global Distribution Network</h3>
+                        <p>Serving customers across 50+ countries with consistent quality and reliable delivery. Our international presence and logistics expertise ensure your materials arrive on time, every time, regardless of location.</p>
+                    </div>
+                    
+                    <div class="card-item">
+                        <div class="card-icon">✅</div>
+                        <h3>Quality Certifications</h3>
+                        <p>ISO 9001:2015, ASTM, and EN certified. All our products undergo rigorous testing and quality assurance protocols to meet or exceed international standards, providing complete peace of mind for your projects.</p>
+                    </div>
+                    
+                    <div class="card-item">
+                        <div class="card-icon">💼</div>
+                        <h3>Expert Technical Support</h3>
+                        <p>Access to a team of certified engineers and material specialists. We provide comprehensive technical guidance, installation support, and custom solutions tailored to your specific project requirements and challenges.</p>
+                    </div>
+                    
+                    <div class="card-item">
+                        <div class="card-icon">🚀</div>
+                        <h3>Innovation & R&D</h3>
+                        <p>Continuous investment in research and development to bring cutting-edge solutions to market. Our state-of-the-art facilities and expert teams work to deliver next-generation materials and manufacturing processes.</p>
+                    </div>
+                    
+                    <div class="card-item">
+                        <div class="card-icon">🎖️</div>
+                        <h3>Industry Recognition</h3>
+                        <p>Award-winning products and services recognized by industry bodies and customer testimonials. Our track record of excellence speaks to our dedication to quality, innovation, and customer success in every project.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Component -->
+        <section class="faq" id="faq">
+            <div class="container">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-content">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h4>What are the shipping costs?</h4>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Shipping is free for orders over $500. Standard delivery takes 5-7 business days.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h4>Do you offer bulk discounts?</h4>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes! Bulk orders of 100+ units receive a 15% discount. Contact sales for details.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h4>What is your return policy?</h4>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>We offer 30-day returns for unused products in original packaging with receipt.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h4>Are your materials eco-friendly?</h4>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Most of our products are recyclable. Check individual product pages for sustainability info.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h4>Do you provide technical support?</h4>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes, our support team is available Monday-Friday 9AM-6PM EST. Email or call for assistance.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h4>What payment methods do you accept?</h4>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>We accept all major credit cards, PayPal, bank transfers, and net-30 invoicing for businesses.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h4>How long is the product warranty?</h4>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Standard warranty is 2 years. Premium materials come with 5-year coverage.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h4>Can I order samples before bulk purchase?</h4>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Absolutely! Sample packs are available for $25 with free shipping on bulk orders.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h4>Do you have local pickup options?</h4>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes, we have warehouses in major cities. Call to arrange local pickup and save on shipping.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h4>Are custom orders available?</h4>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes! We offer custom specifications for orders 500+ units. Contact our sales team to discuss.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Component -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>About MaterialHub</h4>
+                    <p>Leading supplier of industrial materials and construction products since 2020.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#installation">Installation</a></li>
+                        <li><a href="#features">Features</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>Email: info@materialhub.com</p>
+                    <p>Phone: +1 (555) 123-4567</p>
+                    <p>Address: 123 Industrial Ave, Tech City, TC 12345</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#">Facebook</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 MaterialHub. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
